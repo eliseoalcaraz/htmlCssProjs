@@ -19,6 +19,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-left: 10px;
+    margin-bottom: 50px;
 }
 
 
@@ -50,5 +51,6 @@ body {
     color: #FF7575;
     font-size: 71px;
     font-style: italic;
+    font-family: "Recursive";
 }
 
