@@ -1,0 +1,54 @@
+body {
+    background-color: #232830;
+    height: 2753px;
+    width: 1680px;
+    color: #FFF;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    padding: 30px 50px;
+}
+
+.headbar,
+.otherButtonHeadBar {
+    display: flex;
+}
+
+.headbar {
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+
+.homeHeadBar {
+    padding: 20px 20px;
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+.otherButtonHeadBar {
+    flex-direction: row;
+}
+
+#other1,
+#other2,
+#other3 {
+    margin-right: 36px;
+    font-size: 24px;
+}
+
+.heroSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleHero {
+    color: #FF7575;
+    font-size: 71px;
+    font-style: italic;
+}
+
