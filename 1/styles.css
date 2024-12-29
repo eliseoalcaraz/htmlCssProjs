@@ -38,6 +38,7 @@ body {
 #other3 {
     margin-right: 36px;
     font-size: 24px;
+    cursor: pointer;
 }
 
 .heroSection {
@@ -54,3 +55,51 @@ body {
     font-family: "Recursive";
 }
 
+.tagline {
+    margin-bottom: 50px;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #4D4D4D;
+    border-bottom: 1px solid #4D4D4D;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-content,
+.page-contents {
+    display: flex;
+}
+.page-contents {
+    gap: 20px;
+    color: #909090;
+    font-family: "Recursive";
+    font-size: 27px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.head-content {
+    gap: 30px;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 111px;
+}
+
+.contents-block {
+    display: flex;
+    gap: 37px;
+    margin-bottom: 37px;
+}
+
+.content-preview {
+    width: 390px;
+    height: 439px;
+    border-radius: 22px;
+    border: 1px solid #252930;
+    background: #FFF;
+    padding: 26px;
+}
