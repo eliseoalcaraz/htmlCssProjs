@@ -103,3 +103,23 @@ body {
     background: #FFF;
     padding: 26px;
 }
+
+.title-preview {
+    width: 337.08px;
+    color: #0F1217;
+    font-family: "Poppins";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.message-preview {
+    width: 326.726px;
+    color: #0F1217;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
