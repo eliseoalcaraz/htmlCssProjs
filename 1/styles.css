@@ -96,8 +96,8 @@ body {
 }
 
 .content-preview {
-    width: 390px;
-    height: 439px;
+    width: 338px;
+    height: 364px;
     border-radius: 22px;
     border: 1px solid #252930;
     background: #FFF;
@@ -112,6 +112,8 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-top: 13px;
+    margin-bottom: 13px;
 }
 
 .message-preview {
@@ -122,4 +124,18 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 13px;
+}
+
+.date-preview {
+    display: flex;
+    align-items: center;
+    color: #0F1217;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 20px;
+    margin-bottom: 13px;
 }
