@@ -141,3 +141,45 @@ body {
     line-height: normal;
     gap: 20px;
 }
+
+.foot-nav {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+    gap: 30px;
+    color: #909090;
+    font-style: italic;
+    font-family: "Recursive";
+}
+
+.selected-pageNum {
+    color: #FF7575;
+    border-top: 2px solid #FF7575;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 50px;
+}
+
+.first-credits {
+    display: flex;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 30px;
+}
+
+.credit-foot,
+.second-credits {
+    background-color: #4699E0;
+    font-size: 19px;
+    border-radius: 3px;
+    padding: 3px 10px;
+    padding-top: 5px;
+    font-weight: 550;
+}
