@@ -1,13 +1,12 @@
 body {
     background-color: #232830;
     height: 2753px;
-    width: 1680px;
     color: #FFF;
     font-family: "Poppins";
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
-    padding: 30px 50px;
+    padding: 40px 0;
 }
 
 .headbar,
@@ -18,14 +17,14 @@ body {
 .headbar {
     align-items: center;
     justify-content: space-between;
-    margin-left: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 
 .homeHeadBar {
     padding: 20px 20px;
-    margin-left: 100px;
     font-size: 30px;
 }
 
@@ -46,6 +45,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .titleHero {
@@ -73,7 +73,7 @@ body {
     display: flex;
 }
 .page-contents {
-    gap: 20px;
+    gap: 50px;
     color: #909090;
     font-family: "Recursive";
     font-size: 27px;
@@ -83,16 +83,18 @@ body {
 }
 
 .head-content {
-    gap: 30px;
-    justify-content: center;
+    gap: 40px;
+    justify-content: space-between;
     margin-top: 15px;
     margin-bottom: 111px;
+    width: 1300px;
 }
 
 .contents-block {
     display: flex;
-    gap: 37px;
-    margin-bottom: 37px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    width: 1300px;
 }
 
 .content-preview {
@@ -143,8 +145,8 @@ body {
 }
 
 .foot-nav {
-    margin-top: 50px;
-    margin-bottom: 80px;
+    margin-top: 100px;
+    margin-bottom: 150px;
     display: flex;
     gap: 30px;
     color: #909090;
@@ -161,8 +163,10 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 65px;
     padding: 0 50px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .first-credits {
